@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@latest/css/materialdesignicons.min.css">
     <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css' rel='stylesheet'
         integrity='sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD' crossorigin='anonymous'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -22,7 +26,7 @@
 
     <main>
         <section class="container-fluid hero-bg-img">
-            <div class="row">
+            <div class="row pb-4">
                 <p>subtle heading</p>
                 <div class="col-4 card-form">
                     <form>
@@ -48,7 +52,7 @@
                 </div>
 
 
-                <div class="col-4">
+                <div class="col-5 d-none d-md-flex flex-column">
                     <h3>Text over an Image</h3>
                     <h5>This is a subtitle for that text, though this will be hidden on mobile.</h5>
                 </div>
@@ -56,13 +60,13 @@
         </section>
 
         <section class="container-fluid">
-            <div class="row">
-                <div class="col-5">
+            <div class="row p-4">
+                <div class="col-md-5 col-12 order-2 order-md-1 pt-5">
                     <h3>This is a Little Title</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto maxime veniam enim
                         perspiciatis iusto quos odio in quo, deleniti commodi.</p>
                 </div>
-                <div class="col-5 card">
+                <div class="col-md-7 col-12 p-4 order-1 order-md-2 position-relative mid-page-card d-flex flex-column ">
                     <p><i class="mdi mdi-wrench"></i>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
                     <p><i class="mdi mdi-car"></i>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
                     <p><i class="mdi mdi-phone"></i>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
@@ -73,34 +77,34 @@
             </div>
         </section>
 
-        <section class="container">
-            <div class="row">
-                <div class="col-4">
+        <section class="container p-2">
+            <div class="row justify-content-center">
+                <div class="col-md-4 col-12 p-3 d-flex justify-content-center">
                     <img class="img-fluid"
                         src="https://images.unsplash.com/photo-1519086588705-c935fdedcc14?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZGVzayUyMGNoYWlyfGVufDB8fDB8fHww"
                         alt="">
                 </div>
 
-                <div class="col-8">
+                <div class="col-md-7 col-12 d-flex flex-column flex-end">
                     <i class="mdi mdi-shield-check fs-1"></i>
                     <h3>This is another little blurb spot</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sapiente placeat dicta aliquid
                         earum optio ipsa vero enim, veniam officia reiciendis ab voluptas incidunt! Quam, consequatur
                         eveniet. Dolore et modi officia delectus, cum sint fugit.
                     </p>
-                    <button>MORE</button>
+                    <button class="button">MORE</button>
                 </div>
             </div>
         </section>
 
-        <section class="container-fluid">
-            <div class="row">
-                <div class="col-3 card">
+        <section class="container">
+            <div class="row mt-4 mb-4 d-flex justify-content-center align-items-center">
+                <div class="col-3 card order-md-2 order-1">
                     <p>This is review 1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolorum
                         harum porro accusamus ipsum tenetur cum molestiae saepe neque accusantium?</p>
                 </div>
 
-                <div class="col-4 card">
+                <div class="col-4 card order-md-2 order-1">
                     <p><i class="mdi mdi-star-circle"></i>
                         <i class="mdi mdi-star-circle"></i>
                         <i class="mdi mdi-star-circle"></i>
@@ -109,7 +113,7 @@
                         autem ducimus quibusdam.</p>
                 </div>
 
-                <div class="col-3 card">
+                <div class="col-3 card order-md-3 order-3">
                     <p>This is review 1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolorum
                         harum porro accusamus ipsum tenetur cum molestiae saepe neque accusantium?</p>
                 </div>
